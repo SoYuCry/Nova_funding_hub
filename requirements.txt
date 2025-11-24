@@ -1,0 +1,6 @@
+aiohttp
+pandas
+requests
+streamlit
+streamlit-autorefresh
+websockets
