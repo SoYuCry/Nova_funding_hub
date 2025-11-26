@@ -47,41 +47,50 @@ def normalize_symbol(symbol: str) -> str:
 
 def extract_interval_hours(item: dict, exchange_name: str) -> float:
     interval_hours = None
+    # Priority: payload interval_hours -> fundingInterval diff -> nextFundingTime diff
     if item.get("interval_hours") is not None:
-        interval_hours = float(item["interval_hours"])
-    elif item.get("fundingInterval"):
         try:
-            interval_hours = float(item["fundingInterval"]) / 3600_000
+            return float(item["interval_hours"])
         except Exception:
-            interval_hours = None
-    elif item.get("nextFundingTime") and item.get("timestamp"):
+            pass
+
+    if item.get("fundingInterval"):
+        try:
+            return float(item["fundingInterval"]) / 3600_000
+        except Exception:
+            pass
+
+    if item.get("nextFundingTime") and item.get("timestamp"):
         try:
             diff = int(item["nextFundingTime"]) - int(item["timestamp"])
             if diff > 0:
                 interval_hours = diff / 3600_000
+                # fall through to rounding below
         except Exception:
             interval_hours = None
 
-    # Snap to typical buckets by exchange to avoid odd fractions
-    snap_map = {
-        "Aster": [1, 4, 8],
-        "Binance": [1, 4, 8],
-        "EdgeX": [4],
-        "Lighter": [1],
-        "Hyperliquid": [1],
-        "Backpack": [1],
-    }
+    # If we have an interval from above, snap close-to-integer values (e.g. 7.999999 -> 8)
     if interval_hours is not None:
         try:
-            targets = snap_map.get(exchange_name)
-            if targets:
-                interval_hours = min(targets, key=lambda t: abs(t - interval_hours))
+            snapped = round(interval_hours)
+            if abs(interval_hours - snapped) < 0.25:
+                interval_hours = float(snapped)
         except Exception:
-            interval_hours = None
+            pass
+        return interval_hours
 
-    if interval_hours is None:
-        interval_hours = DEFAULT_INTERVAL_HOURS.get(exchange_name, 8)
-    return interval_hours
+    # Fixed intervals
+    fixed = {
+        "Lighter": 1,
+        "Hyperliquid": 1,
+        "Backpack": 1,
+        "EdgeX": 4,
+    }
+    if exchange_name in fixed:
+        return fixed[exchange_name]
+
+    # Defaults for others (Aster/Binance use inferred payload when available)
+    return DEFAULT_INTERVAL_HOURS.get(exchange_name, 8)
 
 def calculate_apy(rate, interval_hours=8):
     if rate is None:
