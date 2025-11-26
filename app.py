@@ -35,6 +35,40 @@ st.title("Crypto Funding Fee Monitor")
 if st_autorefresh:
     st_autorefresh(interval=60_000, key="data_refresh")
 
+SOCIAL_HTML = """
+<style>
+.social-container {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  z-index: 100;
+}
+.social-row {display:flex; gap:10px; margin:0;}
+.social-row a {
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 10px;
+  border-radius:10px;
+  text-decoration:none;
+  color:#fff;
+  font-weight:600;
+  font-size:14px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+.social-row a:hover {opacity:0.92;}
+.social-row .x-link {background:#111;}
+.social-row .tg-link {background:#229ED9;}
+</style>
+<div class="social-container">
+  <div class="social-row">
+    <a class="x-link" href="https://x.com/0xYuCry" target="_blank" rel="noopener noreferrer">✕ <span>X</span></a>
+    <a class="tg-link" href="https://t.me/journey_of_someone" target="_blank" rel="noopener noreferrer">✈ <span>Telegram</span></a>
+  </div>
+</div>
+"""
+st.markdown(SOCIAL_HTML, unsafe_allow_html=True)
+
 VISIT_LOG_PATH = Path("visit_log.jsonl")
 
 def record_visit_once():
@@ -68,8 +102,6 @@ def get_visit_count() -> int | None:
         return None
 
 record_visit_once()
-visit_total = get_visit_count()
-st.metric("Total visits", visit_total if visit_total is not None else "N/A")
 
 # Defaults if interval is missing
 DEFAULT_INTERVAL_HOURS = {

@@ -128,18 +128,18 @@ class Backpack(Exchange):
                         if resp.status == 200:
                             data = await resp.json()
                             if isinstance(data, list) and data:
-                        rate = data[0].get("fundingRate")
-                        ts = self._parse_ts(data[0].get("intervalEndTimestamp"), ts_now)
-                    else:
-                        self.logger.warning("History empty for %s", symbol_api)
-                else:
+                                rate = data[0].get("fundingRate")
+                                ts = self._parse_ts(data[0].get("intervalEndTimestamp"), ts_now)
+                            else:
+                                self.logger.warning("History empty for %s", symbol_api)
+                        else:
+                            failures += 1
+                            self.logger.warning("HTTP %s for %s", resp.status, symbol_api)
+                            return None
+                except Exception as e:
                     failures += 1
-                    self.logger.warning("HTTP %s for %s", resp.status, symbol_api)
+                    self.logger.warning("Exception for %s: %s", symbol_api, e)
                     return None
-            except Exception as e:
-                failures += 1
-                self.logger.warning("Exception for %s: %s", symbol_api, e)
-                return None
 
                 if rate is None:
                     failures += 1
