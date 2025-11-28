@@ -1,0 +1,2002 @@
+[
+  {
+    "exchange": "Aster",
+    "symbol": "GNSUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRUTHUSDT",
+    "rate": 7.288e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "INJUSDT",
+    "rate": 2.297e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ENSOUSDT",
+    "rate": -1.066e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AAVEUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "COINUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZORAUSDT",
+    "rate": -0.00086179,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ARIAUSDT",
+    "rate": 7.839e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SBETUSDT",
+    "rate": 0.00015,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BANKUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EVAAUSDT",
+    "rate": 0.00025575,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TSLAUSDT",
+    "rate": 0.00015,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EURUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ARBUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "STABLEUSDT",
+    "rate": 5.458e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "STBLUSDT",
+    "rate": 5.448e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BNBUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MONUSDT",
+    "rate": 2.393e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ETCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DEXEUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AAPLUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CCUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "RVVUSDT",
+    "rate": 0.00013526,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AVGOUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "500BTCUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TOWNSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000BONKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DOGEUSDT",
+    "rate": -7.09e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRXUSDT",
+    "rate": -1.234e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SAPIENUSDT",
+    "rate": -4.016e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EULUSDT",
+    "rate": -1.27e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EDENUSDT",
+    "rate": 1.11e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XLMUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BRKBUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DASHUSDT",
+    "rate": -0.00026605,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SAHARAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "JELLYJELLYUSDT",
+    "rate": 0.00015561,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "APEUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AVAXUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "OPUSDT",
+    "rate": -0.00026887,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "B2USDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "OPENUSDT",
+    "rate": -1.612e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "RECALLUSDT",
+    "rate": -7.594e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AFEEUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LTCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FARTCOINUSDT",
+    "rate": 4.35e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "JPYUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ORDIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MATICUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "HEMIUSDT",
+    "rate": -0.00034549,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ONDOUSDT",
+    "rate": 1.762e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CUDISUSDT",
+    "rate": 7.992e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LINKUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "2ZUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GMXUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PTBUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "USDCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FORMUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ENAUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AIAUSDT",
+    "rate": 0.00034114,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "VUSDTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "42USDT",
+    "rate": 0.00039112,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "500ETHUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZRCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ESPORTSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ATOMUSDT",
+    "rate": -0.00030215,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRUSTUSDT",
+    "rate": -0.00024766,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SQDUSDT",
+    "rate": -0.00012727,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "HAYUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRADOORUSDT",
+    "rate": -0.01215338,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CDLUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GBPUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZECUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "HYPEUSDT",
+    "rate": 2.45e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FLOCKUSDT",
+    "rate": -0.00113781,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GALAUSDT",
+    "rate": -4.308e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TAGUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "METUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LISTAUSDT",
+    "rate": -3.981e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FRIENDUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AAPLUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BTRUSDT",
+    "rate": 0.00035258,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PYTHUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SENTUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CDLUSD1",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CUSDTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRUMPUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GIGGLEUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TUTUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "HOODUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MAGICUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TURTLEUSDT",
+    "rate": -9.861e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ARUSDT",
+    "rate": -6.67e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BTCUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 1.9999997222222223
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FILUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NVDAUSDT",
+    "rate": 0.00025,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "APXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRUMPUSDT",
+    "rate": 6.06e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PUMPUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AIOUSDT",
+    "rate": 0.00053843,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SOLUSDT",
+    "rate": 8.086e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "RDNTUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SKYAIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LINEAUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PIEVERSEUSDT",
+    "rate": -2.119e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XAUUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FLUXUSDT",
+    "rate": -0.00012648,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ADAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LDOUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PENGUUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MXNUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XRPUSDT",
+    "rate": -3.93e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "4USDT",
+    "rate": 1.862e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BLUAIUSDT",
+    "rate": 0.00013419,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CRVUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "METAUSDT",
+    "rate": 0.0002,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DOTUSDT",
+    "rate": 1.97e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PROVEUSDT",
+    "rate": -0.0002853,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "QQQUSDT",
+    "rate": -0.00018373,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TAKEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "APTUSDT",
+    "rate": -0.00123949,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "USD1USDT",
+    "rate": 7.696e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SEIUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "METAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EGL1USD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MMTUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "VFYUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MOODENGUSDT",
+    "rate": 4.091e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BOOPUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PAXGUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XPINUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ADAUSDT",
+    "rate": 9.634e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DOTUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TREEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "POLUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FFUSDT",
+    "rate": 7.5e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XNYUSDT",
+    "rate": 0.00061082,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ETHUSDT",
+    "rate": 2.086e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZKCUSDT",
+    "rate": 1.38e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LYNUSDT",
+    "rate": 0.00010624,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ORDIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CHFUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SKYUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ALLOUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GOOGUSDT",
+    "rate": 0.00015,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "KGENUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BOBUSDT",
+    "rate": -0.00017476,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MSFTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "FOLKSUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BUSDT",
+    "rate": 0.00117092,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BNBUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 1.9999997222222223
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CAKEUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LINKUSDT",
+    "rate": 5.447e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ONUSDT",
+    "rate": 0.00018047,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CRCLUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SPKUSDT",
+    "rate": -2.43e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "COAIUSDT",
+    "rate": 0.0001002,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CLANKERUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "INUSDT",
+    "rate": -5.325e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BASUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DAMUSDT",
+    "rate": 0.00075338,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DYMUSDT",
+    "rate": -3.532e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PORT3USDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "UBUSDT",
+    "rate": 0.0011379,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AUDUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000CHEEMSUSDT",
+    "rate": 1.735e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PARTIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ARBUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "WLFIUSDT",
+    "rate": -0.00027181,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "RIVERUSDT",
+    "rate": -3.992e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MITOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AMZNUSDT",
+    "rate": 0.00015,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "INJUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NBUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SKYUSDT",
+    "rate": -0.00038092,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TSTUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZBTUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GOOGUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZKUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SUIUSDT",
+    "rate": 6.676e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BARDUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "COMMONUSDT",
+    "rate": 9.135e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AVNTUSDT",
+    "rate": -0.00021127,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TRXUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ZENUSDT",
+    "rate": -2.426e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LABUSDT",
+    "rate": 0.00026358,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "APRUSDT",
+    "rate": 0.00015738,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NEARUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "KITEUSDT",
+    "rate": 1.809e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BCHUSDT",
+    "rate": -6.827e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "OPUSD",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "YBUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NEARUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000SHIBUSDT",
+    "rate": -0.00028936,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "EGL1USDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LTCUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CUSDT",
+    "rate": -0.00012031,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "WIFUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BEATUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AAVEUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TONUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SUIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BCHUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ICPUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "GRASSUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "WIFUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AVAXUSDT",
+    "rate": -0.0001521,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CAKEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "PARTIUSDT",
+    "rate": -2.338e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "0GUSDT",
+    "rate": -0.00014977,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LDOUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "IRYSUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "JCTUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NVDAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XRPUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MKRUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DAIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "UNIUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CLOUSDT",
+    "rate": 0.00033507,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BERAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TSLAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ETHUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 1.9999997222222223
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TNSRUSDT",
+    "rate": -0.00092508,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ATUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "CDLFORM",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BTCUSDT",
+    "rate": 6.95e-06,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000PEPEUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MANTAUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BANANAS31USDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000FLOKIUSDT",
+    "rate": 2.33e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MKRUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SHIBUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "LISUSDUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "QUSDT",
+    "rate": 0.00056412,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "UAIUSDT",
+    "rate": 7.642e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DOGEUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "WLDUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "SOLUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "HOLOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "MSTRUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "ASTERUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "1000PEPEUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "BLESSUSDT",
+    "rate": 0.00064915,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "UNIUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "DYDXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "YZYUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "AMZNUSD",
+    "rate": 0.0,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "TOSHIUSDT",
+    "rate": -0.00394999,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "XPLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Aster",
+    "symbol": "NEIROUSDT",
+    "rate": -0.00034832,
+    "timestamp": 1764354646000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  }
+]

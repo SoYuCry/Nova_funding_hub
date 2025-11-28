@@ -5,6 +5,8 @@ import json
 import os
 
 CACHE_FILE = "binance_intervals.json"
+MIN_INTERVAL_H = 1.0
+MAX_INTERVAL_H = 8.0
 
 
 class Binance(Exchange):
@@ -28,42 +30,47 @@ class Binance(Exchange):
                 with open(CACHE_FILE, "r") as f:
                     data = json.load(f)
                 # 保险起见，把 key 都 upper 一遍
-                return {k.upper(): float(v) for k, v in data.items()}
+                result: dict[str, float] = {}
+                for k, v in data.items():
+                    try:
+                        val = float(v)
+                        if MIN_INTERVAL_H <= val <= MAX_INTERVAL_H:
+                            result[k.upper()] = val
+                    except Exception:
+                        continue
+                return result
         except Exception:
             pass
         return {}
 
     def _save_cache(self) -> None:
-        # 每次都取，因为 Binance 可能会调整 Interval
-        pass
-        # if not self._cache_dirty:
-        #     return
-        # try:
-        #     with open(CACHE_FILE, "w") as f:
-        #         json.dump(self.interval_cache, f, indent=2, sort_keys=True)
-        #     self._cache_dirty = False
-        # except Exception:
-        #     # 写入失败只影响缓存持久化，不要影响主流程
-        #     pass
+        if not self._cache_dirty:
+            return
+        try:
+            with open(CACHE_FILE, "w") as f:
+                json.dump(self.interval_cache, f, indent=2, sort_keys=True)
+            self._cache_dirty = False
+        except Exception:
+            # 写入失败只影响缓存持久化，不要影响主流程
+            pass
 
     def _get_cached_interval(self, symbol: str) -> float | None:
         """从缓存里拿 interval（小时），没有则返回 None。"""
         sym = self._normalize_symbol(symbol)
         hrs = self.interval_cache.get(sym)
-        # 历史缓存里可能有异常值（曾用错误时间序导致 16h/数千小时等），过滤掉
         if hrs is None:
             return None
-        if not (0.25 <= hrs <= 12):
+        if hrs < MIN_INTERVAL_H or hrs > MAX_INTERVAL_H:
             return None
-        return hrs
+        return float(hrs)
 
     def _set_cached_interval(self, symbol: str, hrs: float) -> None:
         """写缓存并标记 dirty。"""
         sym = self._normalize_symbol(symbol)
         val = float(hrs)
-        if 0.25 <= val <= 12:
-            self.interval_cache[sym] = val
-            self._cache_dirty = True
+        val = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, val))
+        self.interval_cache[sym] = val
+        self._cache_dirty = True
 
     # =============================
     # 数据处理 helpers
@@ -143,9 +150,10 @@ class Binance(Exchange):
                     hrs = abs(t1 - t2) / 3_600_000
 
                 if hrs is None:
-                    return None
+                    return self._get_cached_interval(norm_symbol)
 
                 hrs = self._snap_hours(hrs)
+                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
                 self._set_cached_interval(norm_symbol, hrs)
                 return hrs
 
@@ -176,6 +184,10 @@ class Binance(Exchange):
                 interval_hours = await self._fetch_interval_hours(
                     norm_symbol, session, nextFundingTime
                 )
+                if interval_hours is None:
+                    interval_hours = self._get_cached_interval(norm_symbol)
+                if interval_hours is None:
+                    interval_hours = MAX_INTERVAL_H
 
                 # 单次查询也顺便把 cache 刷到磁盘（可按需去掉，减少 IO）
                 self._save_cache()
@@ -210,6 +222,10 @@ class Binance(Exchange):
                         hrs = await self._fetch_interval_hours(
                             symbol, session, nextFundingTime
                         )
+                        if hrs is None:
+                            hrs = self._get_cached_interval(symbol)
+                        if hrs is None:
+                            hrs = MAX_INTERVAL_H
                         return {
                             "exchange": self.name,
                             "symbol": symbol,

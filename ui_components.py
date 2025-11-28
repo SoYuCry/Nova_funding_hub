@@ -47,7 +47,9 @@ SOCIAL_HTML = """
 </style>
 <div class="social-container">
   <div class="social-row">
-    <a class="x-link" href="https://x.com/0xYuCry" target="_blank" rel="noopener noreferrer">✕ <span>X</span></a>
+    <a class="x-link" href="https://x.com/0xYuCry" target="_blank" rel="noopener noreferrer">
+  <span>X</span> @0xYuCry
+    </a>
     <a class="tg-link" href="https://t.me/+gBbEJUXAKn81NGJl" target="_blank" rel="noopener noreferrer">✈ <span>Telegram</span></a>
   </div>
 </div>
@@ -66,10 +68,9 @@ def render_global_theme_styles():
         f"""
         <style>
         /* overall spacing and base text */
+        [data-testid="stAppViewContainer"] > div:nth-child(1) .block-container,
         [data-testid="stAppViewContainer"] .main .block-container {{
-            padding-top: 0.25rem;
-            padding-bottom: 1.25rem;
-            color: {palette["text"]};
+            padding-top: 0.5rem !important;
         }}
         /* normalize markdown/text colors so small helper texts stay visible */
         .stMarkdown, .stMarkdown p, .stMarkdown div, .markdown-text-container, label, .stRadio > label {{

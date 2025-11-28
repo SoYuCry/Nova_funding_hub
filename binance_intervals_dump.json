@@ -1,0 +1,5178 @@
+[
+  {
+    "exchange": "Binance",
+    "symbol": "UNFIUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MOCAUSDT",
+    "rate": -0.00010646,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VELVETUSDT",
+    "rate": 0.00032369,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STBLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STPTUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SAFEUSDT",
+    "rate": 3.614e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARKMUSDT",
+    "rate": 5.065e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AEVOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UNIUSDC",
+    "rate": 1.949e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SAPIENUSDT",
+    "rate": -8.119e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SPKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MEWUSDT",
+    "rate": 1.724e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SANTOSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BCHUSDT",
+    "rate": -0.00014922,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JELLYJELLYUSDT",
+    "rate": 0.0002087,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RIFUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FLOCKUSDT",
+    "rate": -0.0002877,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RADUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DMCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SLERFUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OCEANUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GALAUSDT",
+    "rate": -3.035e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MTLUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "USDCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AIXBTUSDT",
+    "rate": -6.207e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TAKEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000CATUSDT",
+    "rate": 1.229e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GMTUSDT",
+    "rate": -9.004e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CHZUSDT",
+    "rate": -0.00034231,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HAEDALUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MLNUSDT",
+    "rate": -0.00496915,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCUSDT",
+    "rate": -3.229e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PIEVERSEUSDT",
+    "rate": -1.861e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UMAUSDT",
+    "rate": -2.45e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ILVUSDT",
+    "rate": -0.00026259,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NXPCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BANDUSDT",
+    "rate": -0.0001309,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DUSKUSDT",
+    "rate": 6.239e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MOVRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "USUALUSDT",
+    "rate": 3.576e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WLDUSDC",
+    "rate": -3.8e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DIAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MEUSDT",
+    "rate": -3.902e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BAKEUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SNTUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PAXGUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FLMUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ATAUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000LUNCUSDT",
+    "rate": -0.00036845,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OPENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "REZUSDT",
+    "rate": -0.00029791,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BADGERUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WCTUSDT",
+    "rate": -2.282e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EGLDUSDT",
+    "rate": 2.46e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SLPUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SYNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "4USDT",
+    "rate": 0.00025927,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "YFIUSDT",
+    "rate": -3.884e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MERLUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEARUSDT",
+    "rate": -4.996e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LOKAUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "INUSDT",
+    "rate": -3.997e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CHILLGUYUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COMPUSDT",
+    "rate": -0.00318651,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HIPPOUSDT",
+    "rate": 0.00011532,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DEXEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CHRUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KERNELUSDT",
+    "rate": -0.00021864,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PUNDIXUSDT",
+    "rate": -1.963e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BEAMXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XVSUSDT",
+    "rate": -0.00027408,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STGUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AVAXUSDT",
+    "rate": -0.00033564,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TAOUSDT",
+    "rate": 2.474e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DRIFTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARCUSDT",
+    "rate": 0.0019556,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PHBUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AIAUSDT",
+    "rate": 0.00043579,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BATUSDT",
+    "rate": -0.00062743,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UAIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IOTAUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "API3USDT",
+    "rate": -0.00096039,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TOSHIUSDT",
+    "rate": -0.00337206,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AVAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHFIUSDT",
+    "rate": -2.397e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OXTUSDT",
+    "rate": -6.422e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XVGUSDT",
+    "rate": -0.00023848,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RUNEUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRUUSDT",
+    "rate": -0.00032995,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHUSDT_251226",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IRYSUSDT",
+    "rate": -0.00064967,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BROCCOLIF3BUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LISTAUSDT",
+    "rate": 1.919e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EOSUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHWUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UXLINKUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PYTHUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WLFIUSDC",
+    "rate": -0.00030903,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MEMEUSDT",
+    "rate": -0.00232888,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000WHYUSDT",
+    "rate": 0.00012837,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GMXUSDT",
+    "rate": -3.917e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CTSIUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BOMEUSDT",
+    "rate": -3.099e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ERAUSDT",
+    "rate": -0.00023333,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ASTERUSDT",
+    "rate": 2.088e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SPELLUSDT",
+    "rate": -0.00032797,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRXUSDT",
+    "rate": -4.47e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GTCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MINAUSDT",
+    "rate": -0.00064002,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BASUSDT",
+    "rate": 0.00021587,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MUSDT",
+    "rate": -0.00155326,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SAHARAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BLESSUSDT",
+    "rate": 0.00023035,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GUNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LUMIAUSDT",
+    "rate": -3.865e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARKUSDT",
+    "rate": -0.00020273,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MBOXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALLOUSDT",
+    "rate": -0.00012105,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FETUSDT",
+    "rate": -4.705e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NILUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SCRTUSDT",
+    "rate": -0.00013962,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MYXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "APTUSDT",
+    "rate": -0.00153442,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PLUMEUSDT",
+    "rate": -0.00018335,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUIUSDT",
+    "rate": -7.288e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRUTHUSDT",
+    "rate": 0.00017273,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCDOMUSDT",
+    "rate": 0.00014387,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STEEMUSDT",
+    "rate": -0.00043988,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BANANAUSDT",
+    "rate": -0.01981637,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "USELESSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZKJUSDT",
+    "rate": 0.00246258,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AGLDUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NMRUSDT",
+    "rate": -0.00054686,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TSTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WLFIUSDT",
+    "rate": -0.00024311,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KMNOUSDT",
+    "rate": -0.00021703,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BNBUSDC",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LABUSDT",
+    "rate": 0.0002595,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RLCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "QNTUSDT",
+    "rate": -0.00010163,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HYPEUSDT",
+    "rate": 2.32e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DEEPUSDT",
+    "rate": 1.499e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SIGNUSDT",
+    "rate": -0.00013433,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCSTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000SATSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PROVEUSDT",
+    "rate": 2.189e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MORPHOUSDT",
+    "rate": -0.00023189,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KEYUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PORT3USDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ATUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LUNA2USDT",
+    "rate": -0.0002504,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1INCHUSDT",
+    "rate": 5.4e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ROSEUSDT",
+    "rate": -6.822e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCUSDC",
+    "rate": -2.278e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VETUSDT",
+    "rate": -1.403e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TONUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RDNTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FRONTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BOMEUSDC",
+    "rate": -0.00016718,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZEREBROUSDT",
+    "rate": 5.627e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BOBUSDT",
+    "rate": -0.0010741,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STMXUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WOOUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AXSUSDT",
+    "rate": 3.753e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WAVESUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RENDERUSDT",
+    "rate": 1.735e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BANKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOLUSDC",
+    "rate": 3.737e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRUMPUSDT",
+    "rate": -0.00015089,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ASTRUSDT",
+    "rate": -0.00054628,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AXLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "QUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GIGGLEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GPSUSDT",
+    "rate": -7.35e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GRIFFAINUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ACHUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PORTALUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GRASSUSDT",
+    "rate": -9.654e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZRXUSDT",
+    "rate": 2.542e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "A2ZUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MANTAUSDT",
+    "rate": -0.00020475,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VTHOUSDT",
+    "rate": -3.05e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LINKUSDC",
+    "rate": 2.792e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SAGAUSDT",
+    "rate": -1.41e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUIUSDC",
+    "rate": -4.773e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OPUSDT",
+    "rate": -0.00031153,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AEROUSDT",
+    "rate": -0.00017464,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VANRYUSDT",
+    "rate": -7.975e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CYBERUSDT",
+    "rate": -0.00043341,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CVXUSDT",
+    "rate": 2.85e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PLAYUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZILUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VINEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WALUSDT",
+    "rate": -0.00047062,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XEMUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MAGICUSDT",
+    "rate": -0.00026457,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "APEUSDT",
+    "rate": -2.732e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LIGHTUSDT",
+    "rate": 0.00037244,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KOMAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CTKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XLMUSDT",
+    "rate": -1.405e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KAIAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRUSTUSDT",
+    "rate": -0.00024432,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BANANAS31USDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ASRUSDT",
+    "rate": 4.95e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AMBUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HEIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEIROETHUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XRPUSDC",
+    "rate": 8.17e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEWTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LAUSDT",
+    "rate": 6.62e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AIUSDT",
+    "rate": -9.432e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BMTUSDT",
+    "rate": 2.943e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCUSDT_260327",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KGENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EULUSDT",
+    "rate": -4.906e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SXPUSDT",
+    "rate": -2.28e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ORDIUSDC",
+    "rate": 4.87e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LOOMUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DFUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000BONKUSDC",
+    "rate": 2.437e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARPAUSDT",
+    "rate": 5.427e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EIGENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALLUSDT",
+    "rate": -0.0005204,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEARUSDC",
+    "rate": -0.00019847,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FFUSDT",
+    "rate": 3.154e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SNXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LQTYUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PROMUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OBOLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AUSDT",
+    "rate": 4.207e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KDAUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHBTC",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SYSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XCNUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DEFIUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STXUSDT",
+    "rate": 4.619e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000PEPEUSDC",
+    "rate": 1.21e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WLDUSDT",
+    "rate": 9.972e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OMNIUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EPTUSDT",
+    "rate": 6.475e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ACEUSDT",
+    "rate": -0.00402644,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OGUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SYRUPUSDT",
+    "rate": -3.25e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FILUSDC",
+    "rate": -7.33e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WIFUSDC",
+    "rate": 3.82e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PUMPBTCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZECUSDC",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PEOPLEUSDT",
+    "rate": 6.129e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RONINUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BABYUSDT",
+    "rate": -0.00029511,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NOMUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CARVUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TURBOUSDT",
+    "rate": -0.00882057,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SENTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ENAUSDT",
+    "rate": -8.532e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PARTIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALCHUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZROUSDT",
+    "rate": -0.00037406,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HBARUSDC",
+    "rate": -0.00012176,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EPICUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MAVIAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HOLOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IOTXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHUSDT_260327",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FOLKSUSDT",
+    "rate": 0.0002721,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "POLYXUSDT",
+    "rate": -2.279e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "YBUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CHESSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BNTUSDT",
+    "rate": -2.328e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FIDAUSDT",
+    "rate": -5.488e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JASMYUSDT",
+    "rate": 7.89e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BDXNUSDT",
+    "rate": 0.00018153,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BLURUSDT",
+    "rate": -6.431e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ORCAUSDT",
+    "rate": -0.00047949,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COMMONUSDT",
+    "rate": 7.589e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EVAAUSDT",
+    "rate": 0.00035548,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BSWUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FLUIDUSDT",
+    "rate": -0.00042959,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALGOUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BIOUSDT",
+    "rate": -4.982e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ICPUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000FLOKIUSDT",
+    "rate": -0.00013931,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UBUSDT",
+    "rate": 0.00075171,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000XECUSDT",
+    "rate": -0.00015303,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOGSUSDT",
+    "rate": -8.846e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "0GUSDT",
+    "rate": -0.0001284,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STORJUSDT",
+    "rate": -0.0005066,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BONDUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CAKEUSDT",
+    "rate": -7.861e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GOATUSDT",
+    "rate": -6.655e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HYPERUSDT",
+    "rate": -0.00016471,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "YGGUSDT",
+    "rate": -3.036e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FUNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "POLUSDT",
+    "rate": -5.644e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VOXELUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AIOTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TIAUSDC",
+    "rate": -0.00013368,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SONICUSDT",
+    "rate": -0.0016417,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "POPCATUSDT",
+    "rate": 2.197e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IPUSDT",
+    "rate": -0.00027503,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FILUSDT",
+    "rate": 6.943e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LTCUSDT",
+    "rate": -1.635e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SIRENUSDT",
+    "rate": 0.00053665,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AAVEUSDT",
+    "rate": -1.884e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WIFUSDT",
+    "rate": -3.365e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SKATEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CETUSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TOKENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000SHIBUSDC",
+    "rate": -0.00052938,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MMTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "INJUSDT",
+    "rate": -0.00021254,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FLUXUSDT",
+    "rate": -0.00028268,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "WAXPUSDT",
+    "rate": -0.00027833,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XAIUSDT",
+    "rate": 4.508e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PNUTUSDT",
+    "rate": -0.0001406,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000PEPEUSDT",
+    "rate": 1.89e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CRVUSDT",
+    "rate": 2.863e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AI16ZUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CELOUSDT",
+    "rate": 9.35e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "QTUMUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOPHUSDT",
+    "rate": -0.00040265,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FUSDT",
+    "rate": -0.00054552,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOODUSDT",
+    "rate": -0.00029125,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NTRNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NULSUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "THEUSDT",
+    "rate": -4.942e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HMSTRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALPINEUSDT",
+    "rate": 2.52e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "\u5e01\u5b89\u4eba\u751fUSDT",
+    "rate": 0.00048523,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ENSUSDT",
+    "rate": 6.544e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PENGUUSDC",
+    "rate": -2.302e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUSHIUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOLVUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BNBBTC",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AINUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ENJUSDT",
+    "rate": -7.926e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BNBUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NKNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VIRTUALUSDT",
+    "rate": 8e-07,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ICNTUSDT",
+    "rate": -0.00318458,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XMRUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOLUSDT",
+    "rate": 6.153e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VICUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EDUUSDT",
+    "rate": 4.254e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RAYSOLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FISUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BCHUSDC",
+    "rate": -0.00014023,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "THETAUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PONKEUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MEMEFIUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DARUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COAIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARIAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XNYUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PIPPINUSDT",
+    "rate": -0.00128333,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LAYERUSDT",
+    "rate": -0.0001008,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SEIUSDT",
+    "rate": -0.00028027,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PROMPTUSDT",
+    "rate": -0.00014577,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XPINUSDT",
+    "rate": 0.00020541,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SKLUSDT",
+    "rate": 8.867e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VVVUSDT",
+    "rate": -0.00050181,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XANUSDT",
+    "rate": -9.744e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ORDIUSDT",
+    "rate": 1.008e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BBUSDT",
+    "rate": -0.00029543,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NAORISUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IMXUSDT",
+    "rate": -2.037e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OMUSDT",
+    "rate": -0.00164549,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CVCUSDT",
+    "rate": -0.00064367,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CFXUSDT",
+    "rate": 1.562e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CGPTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DODOXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZRCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AVNTUSDT",
+    "rate": -3.696e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JCTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COOKIEUSDT",
+    "rate": -0.00028885,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "POWRUSDT",
+    "rate": 1.258e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DENTUSDT",
+    "rate": -0.00021764,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GHSTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SHELLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TUSDT",
+    "rate": -0.00039035,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BLZUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SSVUSDT",
+    "rate": 9.475e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TIAUSDT",
+    "rate": -0.00013452,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NOTUSDT",
+    "rate": -0.00014689,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TUTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TOWNSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BANUSDT",
+    "rate": 0.00026762,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VIDTUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 2.0000008333333334
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AGTUSDT",
+    "rate": 0.00069036,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SWARMSUSDT",
+    "rate": 0.00049825,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OGNUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BALUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HEMIUSDT",
+    "rate": -0.00022158,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COTIUSDT",
+    "rate": -0.00017811,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DYDXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BSVUSDT",
+    "rate": -0.00010585,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "QUICKUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VELODROMEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MATICUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DASHUSDT",
+    "rate": -0.00349464,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MOODENGUSDT",
+    "rate": -0.00020172,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000CHEEMSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "EDENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZKUSDT",
+    "rate": 3.202e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FARTCOINUSDT",
+    "rate": -0.0002047,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AWEUSDT",
+    "rate": -0.00211362,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RPLUSDT",
+    "rate": 3.971e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CUDISUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETCUSDT",
+    "rate": 6.058e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SFPUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FLOWUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEOUSDC",
+    "rate": 1.921e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DEGENUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BIOUSDC",
+    "rate": -0.00010891,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ONUSDT",
+    "rate": 0.00010447,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BULLAUSDT",
+    "rate": 0.00023816,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "42USDT",
+    "rate": 0.00043636,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARUSDT",
+    "rate": -0.0001374,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000000BOBUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RSRUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AUCTIONUSDT",
+    "rate": -0.00037879,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DAMUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ONTUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GAIBUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RVVUSDT",
+    "rate": 0.00031889,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CLOUSDT",
+    "rate": 0.00084757,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ACTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TNSRUSDT",
+    "rate": -0.00092949,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JOEUSDT",
+    "rate": 9.393e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KLAYUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KSMUSDT",
+    "rate": -2.837e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KAVAUSDT",
+    "rate": -5.291e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BEATUSDT",
+    "rate": 0.00019017,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CKBUSDT",
+    "rate": -0.00022142,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AVAAIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRUMPUSDC",
+    "rate": -0.00021633,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MIRAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ICXUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JTOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MUBARAKUSDT",
+    "rate": 2.233e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TLMUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BARDUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SCUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SKYAIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PERPUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ACXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOGEUSDC",
+    "rate": -5.334e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GASUSDT",
+    "rate": -0.00011733,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ANKRUSDT",
+    "rate": -9.942e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SQDUSDT",
+    "rate": -0.00021272,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JUPUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XRPUSDT",
+    "rate": 2.28e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "OMGUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LINKUSDT",
+    "rate": -1.835e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZBTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TREEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MOVEUSDT",
+    "rate": 1.839e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LYNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TWTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GLMRUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEIROUSDT",
+    "rate": 1.11e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TAIKOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HIGHUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MONUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KAITOUSDT",
+    "rate": -0.00017541,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BIDUSDT",
+    "rate": 0.0002818,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IDEXUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "REDUSDT",
+    "rate": -0.00012602,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "APRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PENGUUSDT",
+    "rate": -2.27e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOMIUSDT",
+    "rate": -4.89e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XTZUSDT",
+    "rate": 4.731e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PTBUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FHEUSDT",
+    "rate": 0.00031336,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HIFIUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "REIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RECALLUSDT",
+    "rate": -9.239e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DEGOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZECUSDT",
+    "rate": 9.353e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BRETTUSDT",
+    "rate": -4.549e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BLUAIUSDT",
+    "rate": 7.62e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "USTCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HOTUSDT",
+    "rate": 8.007e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ATOMUSDT",
+    "rate": -0.00027794,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IDOLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CRVUSDC",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HOOKUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ATHUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "B3USDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZKCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ANIMEUSDT",
+    "rate": -0.00010405,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NEOUSDT",
+    "rate": 8.288e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ONEUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AIOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CELRUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VANAUSDT",
+    "rate": -0.00013365,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BICOUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IOUSDT",
+    "rate": -1.727e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRADOORUSDT",
+    "rate": -0.01180563,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FORTHUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RESOLVUSDT",
+    "rate": -0.00073151,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STRKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COWUSDT",
+    "rate": 4.136e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TURTLEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TANSSIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HBARUSDT",
+    "rate": -0.00019432,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000000MOGUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PUFFERUSDT",
+    "rate": 9.13e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CCUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FTTUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUSDT",
+    "rate": -2.077e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AVAXUSDC",
+    "rate": -0.00034446,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SANDUSDT",
+    "rate": 9.253e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IPUSDC",
+    "rate": -0.00046311,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALTUSDT",
+    "rate": -0.00019134,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SKYUSDT",
+    "rate": 7.26e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LINEAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AKTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ESPORTSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOLOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ONDOUSDT",
+    "rate": 5.96e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BTCUSDT_251226",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": null,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MILKUSDT",
+    "rate": -0.00051866,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ADAUSDT",
+    "rate": 4.64e-06,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PNUTUSDC",
+    "rate": -0.00015084,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "2ZUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PUMPUSDT",
+    "rate": -5.609e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ONGUSDT",
+    "rate": 1.094e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TRBUSDT",
+    "rate": 2.278e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BELUSDT",
+    "rate": -7.657e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALPHAUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LINAUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "COMBOUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TACUSDT",
+    "rate": 0.00036121,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000XUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LRCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "XPLUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LTCUSDC",
+    "rate": -4.322e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "UNIUSDT",
+    "rate": -5.766e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MATICUSDC",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARBUSDC",
+    "rate": 4.691e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHFIUSDC",
+    "rate": -3.198e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LEVERUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ARBUSDT",
+    "rate": 1.688e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PIXELUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "NFPUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BROCCOLI714USDT",
+    "rate": 1.893e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MYROUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MITOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IOSTUSDT",
+    "rate": -0.00099053,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AKEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TAGUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "TROYUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "INITUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PENDLEUSDT",
+    "rate": 5.165e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HIVEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "IDUSDT",
+    "rate": -6.285e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOGEUSDT",
+    "rate": -2.635e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AGIXUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "REEFUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SUPERUSDT",
+    "rate": -0.00040802,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DGBUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SXTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALPACAUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SWELLUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PLANCKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KITEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HANAUSDT",
+    "rate": 1.25e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "VFYUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHUSDC",
+    "rate": -9.93e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "METISUSDT",
+    "rate": 1.013e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DYMUSDT",
+    "rate": -0.00038263,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CATIUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BIGTIMEUSDT",
+    "rate": 3.672e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HUMAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SOONUSDT",
+    "rate": -0.00012183,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RENUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SPXUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KASUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ALICEUSDT",
+    "rate": -0.00159293,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZORAUSDT",
+    "rate": -0.00082181,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000BONKUSDT",
+    "rate": 2.507e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KAITOUSDC",
+    "rate": -0.00024826,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HFTUSDT",
+    "rate": -0.0002269,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "JSTUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "C98USDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LDOUSDT",
+    "rate": -2.087e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RVNUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ORBSUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FIOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GLMUSDT",
+    "rate": -0.00048364,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "DOTUSDT",
+    "rate": -5.079e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZETAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LITUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LSKUSDT",
+    "rate": -0.00086534,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764356400000,
+    "interval_hours": 1.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "METUSDT",
+    "rate": 1.957e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "PHAUSDT",
+    "rate": -0.0001782,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000SHIBUSDT",
+    "rate": -0.00034507,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AERGOUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MDTUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ETHUSDT",
+    "rate": -3.734e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RAYUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MKRUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "B2USDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ZENUSDT",
+    "rate": -0.00011466,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ADAUSDC",
+    "rate": 1.392e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ENSOUSDT",
+    "rate": -0.00031043,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "SCRUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "LPTUSDT",
+    "rate": -7.114e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ENAUSDC",
+    "rate": -4.47e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1000RATSUSDT",
+    "rate": 0.00039803,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MANAUSDT",
+    "rate": -4.258e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FORMUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CLANKERUSDT",
+    "rate": -4.626e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FXSUSDT",
+    "rate": -0.00033665,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BERAUSDT",
+    "rate": -0.0002299,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STABLEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "GRTUSDT",
+    "rate": -2.132e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "BNXUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MAVUSDT",
+    "rate": 6.933e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RAREUSDT",
+    "rate": 1.615e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MELANIAUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "RIVERUSDT",
+    "rate": -0.00032488,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "MASKUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "KNCUSDT",
+    "rate": 0.0001,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "ORDERUSDT",
+    "rate": -0.00111273,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "CROSSUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "HOMEUSDT",
+    "rate": 5e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "STRAXUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "1MBABYDOGEUSDT",
+    "rate": 2.018e-05,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "FTMUSDT",
+    "rate": 0.0,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "AAVEUSDC",
+    "rate": -0.00010393,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764374400000,
+    "interval_hours": 8.0
+  },
+  {
+    "exchange": "Binance",
+    "symbol": "YALAUSDT",
+    "rate": 0.00055303,
+    "timestamp": 1764354617000,
+    "nextFundingTime": 1764360000000,
+    "interval_hours": 4.0
+  }
+]

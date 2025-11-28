@@ -4,24 +4,47 @@ import json
 import os
 from .base import Exchange
 
+MIN_INTERVAL_H = 1.0
+MAX_INTERVAL_H = 8.0
+
 
 class Aster(Exchange):
     def __init__(self):
         super().__init__("Aster", "https://fapi.asterdex.com")
         self.cache_file = "aster_intervals.json"
-        # 虽然还保留字段，但后面不会再用到
-        self.interval_cache: dict[str, float] = {}
+        self.interval_cache: dict[str, float] = self._load_cache()
         self._cache_dirty = False
 
     def _load_cache(self) -> dict[str, float]:
         """
-        保留函数签名以兼容，但实际上已经不再使用文件缓存。
+        读取本地缓存，过滤掉异常值。
         """
+        try:
+            if os.path.exists(self.cache_file):
+                with open(self.cache_file, "r") as f:
+                    data = json.load(f)
+                result: dict[str, float] = {}
+                for k, v in data.items():
+                    try:
+                        val = float(v)
+                        if MIN_INTERVAL_H <= val <= MAX_INTERVAL_H:
+                            result[k.upper()] = val
+                    except Exception:
+                        continue
+                return result
+        except Exception:
+            pass
         return {}
 
     def _save_cache(self) -> None:
-        # 每次都取，因为 Aster 可能会调整 Interval
-        pass
+        if not self._cache_dirty:
+            return
+        try:
+            with open(self.cache_file, "w") as f:
+                json.dump(self.interval_cache, f, indent=2, sort_keys=True)
+            self._cache_dirty = False
+        except Exception:
+            pass
 
     # ============ 工具函数 ============
 
@@ -39,6 +62,21 @@ class Aster(Exchange):
         if 0.9999 < hrs < 1.001:
             return 1.0
         return hrs
+
+    def _get_cached_interval(self, symbol: str) -> float | None:
+        sym = self._normalize_symbol(symbol)
+        hrs = self.interval_cache.get(sym)
+        if hrs is None:
+            return None
+        if hrs < MIN_INTERVAL_H or hrs > MAX_INTERVAL_H:
+            return None
+        return float(hrs)
+
+    def _set_cached_interval(self, symbol: str, hrs: float) -> None:
+        sym = self._normalize_symbol(symbol)
+        val = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, float(hrs)))
+        self.interval_cache[sym] = val
+        self._cache_dirty = True
 
     # ============ 核心 interval 计算逻辑 ============
 
@@ -84,14 +122,17 @@ class Aster(Exchange):
                 else:
                     # fallback: 用最近两次 fundingTime 的差
                     if len(funding_times) < 2:
-                        return None
+                        return self._get_cached_interval(norm_symbol)
                     t1, t2 = funding_times[0], funding_times[1]
                     hrs = abs(t1 - t2) / 3_600_000
 
-                return self._snap_hours(hrs)
+                hrs = self._snap_hours(hrs)
+                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+                self._set_cached_interval(norm_symbol, hrs)
+                return hrs
 
         except Exception:
-            return None
+            return self._get_cached_interval(norm_symbol)
 
     # ============ 对外接口 ============
 
@@ -122,6 +163,10 @@ class Aster(Exchange):
                 interval_hours = await self._fetch_interval_hours(
                     norm_symbol, session, nextFundingTime
                 )
+                if interval_hours is None:
+                    interval_hours = self._get_cached_interval(norm_symbol)
+                if interval_hours is None:
+                    interval_hours = MAX_INTERVAL_H
 
                 return {
                     "exchange": self.name,
@@ -154,6 +199,10 @@ class Aster(Exchange):
                         interval_hours = await self._fetch_interval_hours(
                             symbol, session, nextFundingTime
                         )
+                        if interval_hours is None:
+                            interval_hours = self._get_cached_interval(symbol)
+                        if interval_hours is None:
+                            interval_hours = MAX_INTERVAL_H
                         return {
                             "exchange": self.name,
                             "symbol": symbol,
@@ -164,6 +213,5 @@ class Aster(Exchange):
                         }
 
                 results = await asyncio.gather(*(enrich(item) for item in data))
-                # _save_cache 已经被禁用，这里即使调用也不会做任何事
                 self._save_cache()
                 return results
