@@ -24,33 +24,45 @@ SOCIAL_HTML = """
 <style>
 .social-container {
   position: fixed;
-  bottom: 14px;
-  right: 16px;
+  bottom: 20px;
+  right: 24px;
   z-index: 1000;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
-.social-row {display:flex; gap:10px; margin:0;}
+.social-container:hover {
+  opacity: 1;
+}
+.social-row {display:flex; gap:12px; margin:0;}
 .social-row a {
   display:inline-flex;
   align-items:center;
-  gap:6px;
-  padding:6px 10px;
-  border-radius:10px;
+  gap:8px;
+  padding:8px 14px;
+  border-radius:20px; /* More rounded */
   text-decoration:none;
   color:#fff;
-  font-weight:600;
-  font-size:14px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.15);
+  font-weight: 500;
+  font-size:13px;
+  backdrop-filter: blur(4px);
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.social-row a:hover {opacity:0.92;}
-.social-row .x-link {background:#111;}
-.social-row .tg-link {background:#229ED9;}
+.social-row a:hover {
+    transform: translateY(-2px);
+    box-shadow:0 6px 16px rgba(0,0,0,0.15);
+}
+.social-row .x-link {background: rgba(0,0,0,0.6);}
+.social-row .tg-link {background: rgba(34, 158, 217, 0.8);}
 </style>
 <div class="social-container">
   <div class="social-row">
     <a class="x-link" href="https://x.com/0xYuCry" target="_blank" rel="noopener noreferrer">
-  <span>X</span> @0xYuCry
+      <span>𝕏</span> @0xYuCry
     </a>
-    <a class="tg-link" href="https://t.me/+gBbEJUXAKn81NGJl" target="_blank" rel="noopener noreferrer">✈ <span>Telegram</span></a>
+    <a class="tg-link" href="https://t.me/+gBbEJUXAKn81NGJl" target="_blank" rel="noopener noreferrer">
+      <span>✈</span> Telegram
+    </a>
   </div>
 </div>
 """
@@ -82,27 +94,30 @@ def render_global_theme_styles():
 
         /* 页面标题专用样式 */
         .page-title {{
-        font-size: 1.9rem;         /* 更显眼 */
-        font-weight: 700;
-        line-height: 1.25;
-        margin-bottom: 0.5rem;
-        color: {palette["text"]};
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: {palette["text"]};
+            letter-spacing: -0.02em;
         }}
 
         h1, h2, h3, h4, h5, h6 {{
             color: {palette["text"]} !important;
-            margin-bottom: 0.35rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
         }}
 
         /* gear button */
         button[data-testid="stPopover"] {{
-            background: {palette["table_bg"]};
+            background: transparent;
             color: {palette["text"]};
             border: 1px solid {palette["border"]};
+            box-shadow: none;
         }}
         button[data-testid="stPopover"]:hover {{
             background: {palette["hover"]};
-            border-color: {palette["border"]};
+            border-color: {palette["text"]};
             color: {palette["text"]};
         }}
         </style>
@@ -382,82 +397,96 @@ def render_rates_table(df):
     css_block = textwrap.dedent(
         f"""
         <style>
-        /* 整个表格基础样式，去掉默认间距，避免“列间透光” */
+        /* 整个表格基础样式 */
         .custom-table-container table {{
             width: 100%;
+            border-collapse: separate; /* Changed to separate for better sticky handling if needed, but collapse is fine usually. Let's stick to collapse but remove borders. */
             border-collapse: collapse;
             border-spacing: 0;
             background-color: {palette["table_bg"]};
             color: {palette["text"]};
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             font-size: 14px;
         }}
 
         .custom-table-container thead {{
             position: sticky;
-            top: {top_offset};  /* align with Streamlit top padding/header */
+            top: {top_offset};
             z-index: 998;
             background-color: {palette["table_bg"]};
         }}
 
-        /* 表头单元格的基础样式 */
+        /* 表头单元格 */
         .custom-table-container thead th {{
-            /* 不再在 th 上做 sticky，只让 thead sticky 就够了 */
             background-color: {palette["table_bg"]};
             z-index: 999;
-            padding: 8px;
+            padding: 8px 8px; /* 调回紧凑内边距 */
             text-align: center;
-            border-bottom: 2px solid {palette["border"]};
-            border-right: 1px solid {palette["border"]};
-            box-shadow: 0 2px 6px rgba(0,0,0,0.45);
+            border-bottom: 1px solid {palette["border"]};
+            /* border-right: 1px solid {palette["border"]};  去掉竖线 */
+            font-weight: 600;
             cursor: pointer;
             user-select: none;
             color: {palette["text"]};
             white-space: nowrap;
+            letter-spacing: 0.02em;
+            font-size: 13px; /* 稍微减小字号 */
         }}
 
-        /* 最后一列表头不需要右边框，避免双线 */
+        /* 最后一列表头 */
         .custom-table-container thead th:last-child {{
             border-right: none;
         }}
 
-        /* 默认的上下箭头提示 */
+        /* 默认的上下箭头提示 - 稍微淡一点 */
         .custom-table-container thead th::after {{
             content: ' ⇅';
-            font-size: 0.75rem;
-            opacity: 0.4;
+            font-size: 0.7rem;
+            opacity: 0.2;
             margin-left: 4px;
             color: {palette["text"]};
+            transition: opacity 0.2s;
+        }}
+        .custom-table-container thead th:hover::after {{
+            opacity: 0.6;
         }}
 
         /* 升序 ▲ */
         .custom-table-container thead th.sort-asc::after {{
             content: ' ▲';
             opacity: 1;
+            color: #4caf50;
         }}
 
         /* 降序 ▼ */
         .custom-table-container thead th.sort-desc::after {{
             content: ' ▼';
             opacity: 1;
+            color: #f44336;
         }}
 
         /* 表体单元格样式 */
         .custom-table-container tbody td {{
-            padding: 8px;
+            padding: 8px 8px; /* 调回紧凑内边距 */
             text-align: center;
             border-bottom: 1px solid {palette["row_border"]};
-            /* 同样加右边框，和表头对齐，不透光 */
-            border-right: 1px solid {palette["row_border"]};
+            /* border-right: 1px solid {palette["row_border"]}; 去掉竖线 */
             color: {palette["text"]};
             white-space: nowrap;
+            font-variant-numeric: tabular-nums;
+            font-size: 13px; /* 稍微减小字号 */
         }}
 
         .custom-table-container tbody td:last-child {{
             border-right: none;
         }}
 
+        .custom-table-container tbody tr {{
+            transition: background-color 0.15s ease;
+        }}
+
         .custom-table-container tbody tr:hover {{
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: {palette["hover"]};
         }}
         </style>
         """
