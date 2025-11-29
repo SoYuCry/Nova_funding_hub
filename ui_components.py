@@ -68,6 +68,12 @@ def render_global_theme_styles():
         f"""
         <style>
         /* overall spacing and base text */
+        .stApp {{
+            background-color: {palette["wrapper_bg"]};
+        }}
+        header[data-testid="stHeader"] {{
+            background-color: {palette["wrapper_bg"]};
+        }}
         [data-testid="stAppViewContainer"] > div:nth-child(1) .block-container,
         [data-testid="stAppViewContainer"] .main .block-container {{
             padding-top: 0.5rem !important;
