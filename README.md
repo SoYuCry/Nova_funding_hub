@@ -2,7 +2,7 @@
 
 **Nova Funding Hub** 是 **Nova 社区** 推出的一款多交易所资金费率监控工具，专为套利交易者打造。
 
-🌐 **Live Demo**: [https://nova-btc.xyz/](https://nova-btc.xyz/)
+🌐 **Live Demo**: [nova-btc.xyz](https://nova-btc.xyz/)
 
 它实时聚合了各大去中心化交易所 (DEX) 和中心化交易所 (CEX) 的资金费率数据，帮助您快速发现跨平台套利机会，最大化资金利用率。
 
@@ -46,11 +46,6 @@
 *   `ui_components.py`: 定制化 UI 组件库。
 *   `exchanges/`: 各交易所接口实现。
 
-## 📄 License
-
-本项目采用 [MIT License](LICENSE) 开源。
-
----
 
 ## 🚀 关于 Nova 社区
 
