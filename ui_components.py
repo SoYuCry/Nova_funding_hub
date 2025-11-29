@@ -11,13 +11,13 @@ import streamlit as st
 logger = logging.getLogger("funding_monitor")
 
 PALETTE = {
-    "wrapper_bg": "#0b0f19",
-    "table_bg": "#0b0f19",
-    "text": "#e9edf5",
-    "border": "#303645",
-    "row_border": "#333",
-    "hover": "#141a25",
-    "head_shadow": "#0b0f19",
+    "wrapper_bg": "var(--background-color)",
+    "table_bg": "var(--background-color)",
+    "text": "var(--text-color)",
+    "border": "rgba(128, 128, 128, 0.2)",
+    "row_border": "rgba(128, 128, 128, 0.1)",
+    "hover": "var(--secondary-background-color)",
+    "head_shadow": "var(--background-color)",
 }
 
 SOCIAL_HTML = """
@@ -68,12 +68,6 @@ def render_global_theme_styles():
         f"""
         <style>
         /* overall spacing and base text */
-        .stApp {{
-            background-color: {palette["wrapper_bg"]};
-        }}
-        header[data-testid="stHeader"] {{
-            background-color: {palette["wrapper_bg"]};
-        }}
         [data-testid="stAppViewContainer"] > div:nth-child(1) .block-container,
         [data-testid="stAppViewContainer"] .main .block-container {{
             padding-top: 0.5rem !important;
