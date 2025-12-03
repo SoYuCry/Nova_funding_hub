@@ -25,34 +25,23 @@ class Binance(Exchange):
         return symbol.upper()
 
     def _load_cache(self) -> dict[str, float]:
-        try:
-            if os.path.exists(CACHE_FILE):
-                with open(CACHE_FILE, "r") as f:
-                    data = json.load(f)
-                # 保险起见，把 key 都 upper 一遍
-                result: dict[str, float] = {}
-                for k, v in data.items():
-                    try:
-                        val = float(v)
-                        if MIN_INTERVAL_H <= val <= MAX_INTERVAL_H:
-                            result[k.upper()] = val
-                    except Exception:
-                        continue
-                return result
-        except Exception:
-            pass
-        return {}
+        if not os.path.exists(CACHE_FILE):
+            return {}
+        with open(CACHE_FILE, "r") as f:
+            data = json.load(f)
+        result: dict[str, float] = {}
+        for k, v in data.items():
+            val = float(v)
+            if MIN_INTERVAL_H <= val <= MAX_INTERVAL_H:
+                result[k.upper()] = val
+        return result
 
     def _save_cache(self) -> None:
         if not self._cache_dirty:
             return
-        try:
-            with open(CACHE_FILE, "w") as f:
-                json.dump(self.interval_cache, f, indent=2, sort_keys=True)
-            self._cache_dirty = False
-        except Exception:
-            # 写入失败只影响缓存持久化，不要影响主流程
-            pass
+        with open(CACHE_FILE, "w") as f:
+            json.dump(self.interval_cache, f, indent=2, sort_keys=True)
+        self._cache_dirty = False
 
     def _get_cached_interval(self, symbol: str) -> float | None:
         """从缓存里拿 interval（小时），没有则返回 None。"""
@@ -119,41 +108,37 @@ class Binance(Exchange):
         url = f"{self.base_url}/fapi/v1/fundingRate"
         params = {"symbol": norm_symbol, "limit": 2}
 
-        try:
-            async with session.get(url, params=params) as resp:
-                if resp.status != 200:
-                    return self._get_cached_interval(norm_symbol)
+        async with session.get(url, params=params) as resp:
+            if resp.status != 200:
+                return self._get_cached_interval(norm_symbol)
 
-                data = await resp.json()
-                if not isinstance(data, list) or len(data) == 0:
-                    return self._get_cached_interval(norm_symbol)
+            data = await resp.json()
+            if not isinstance(data, list) or len(data) == 0:
+                return self._get_cached_interval(norm_symbol)
 
-                funding_times = self._extract_funding_times(data)
-                if not funding_times:
-                    return self._get_cached_interval(norm_symbol)
+            funding_times = self._extract_funding_times(data)
+            if not funding_times:
+                return self._get_cached_interval(norm_symbol)
 
-                hrs: float | None = None
+            hrs: float | None = None
 
-                # 有 nextFundingTime 时优先用它：next - 最近的一次 fundingTime
-                if nextFundingTime is not None:
-                    # funding_times 已经按时间降序排序，index 0 为最新一次
-                    t_last = funding_times[0]
-                    hrs = abs(nextFundingTime - t_last) / 3_600_000
-                # 否则，退化成用最近两次 fundingTime 的间隔
-                elif len(funding_times) >= 2:
-                    t1, t2 = funding_times[0], funding_times[1]
-                    hrs = abs(t1 - t2) / 3_600_000
+            # 有 nextFundingTime 时优先用它：next - 最近的一次 fundingTime
+            if nextFundingTime is not None:
+                # funding_times 已经按时间降序排序，index 0 为最新一次
+                t_last = funding_times[0]
+                hrs = abs(nextFundingTime - t_last) / 3_600_000
+            # 否则，退化成用最近两次 fundingTime 的间隔
+            elif len(funding_times) >= 2:
+                t1, t2 = funding_times[0], funding_times[1]
+                hrs = abs(t1 - t2) / 3_600_000
 
-                if hrs is None:
-                    return self._get_cached_interval(norm_symbol)
+            if hrs is None:
+                return self._get_cached_interval(norm_symbol)
 
-                hrs = self._snap_hours(hrs)
-                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-                self._set_cached_interval(norm_symbol, hrs)
-                return hrs
-
-        except Exception:
-            return self._get_cached_interval(norm_symbol)
+            hrs = self._snap_hours(hrs)
+            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+            self._set_cached_interval(norm_symbol, hrs)
+            return hrs
 
     # =============================
     # 对外接口

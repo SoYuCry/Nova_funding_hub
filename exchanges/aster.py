@@ -102,51 +102,47 @@ class Aster(Exchange):
     ) -> float | None:
         """
         根据 /fapi/v1/fundingRate 推断 funding interval（小时）。
-        每次都从接口获取，不使用缓存。
+        优先单查，失败时才回退到本地缓存。
         """
         norm_symbol = self._normalize_symbol(symbol)
 
         url = f"{self.base_url}/fapi/v1/fundingRate"
         params = {"symbol": norm_symbol, "limit": 2}
 
-        try:
-            async with session.get(url, params=params) as resp:
-                if resp.status != 200:
+        async with session.get(url, params=params) as resp:
+            if resp.status != 200:
+                return self._get_cached_interval(norm_symbol)
+
+            data = await resp.json()
+            if not isinstance(data, list) or len(data) == 0:
+                return self._get_cached_interval(norm_symbol)
+
+            # 提取 fundingTime（毫秒时间戳），并统一按时间降序（最新在前）
+            funding_times = []
+            for item in data:
+                t = item.get("fundingTime")
+                if isinstance(t, int):
+                    funding_times.append(t)
+            funding_times.sort(reverse=True)
+
+            if not funding_times:
+                return self._get_cached_interval(norm_symbol)
+
+            # 优先用 nextFundingTime 与最近一次 fundingTime 的差
+            if nextFundingTime is not None:
+                t_last = funding_times[0]
+                hrs = abs(nextFundingTime - t_last) / 3_600_000
+            else:
+                # fallback: 用最近两次 fundingTime 的差
+                if len(funding_times) < 2:
                     return self._get_cached_interval(norm_symbol)
+                t1, t2 = funding_times[0], funding_times[1]
+                hrs = abs(t1 - t2) / 3_600_000
 
-                data = await resp.json()
-                if not isinstance(data, list) or len(data) == 0:
-                    return self._get_cached_interval(norm_symbol)
-
-                # 提取 fundingTime（毫秒时间戳），并统一按时间降序（最新在前）
-                funding_times = []
-                for item in data:
-                    t = item.get("fundingTime")
-                    if isinstance(t, int):
-                        funding_times.append(t)
-                funding_times.sort(reverse=True)
-
-                if not funding_times:
-                    return self._get_cached_interval(norm_symbol)
-
-                # 优先用 nextFundingTime 与最近一次 fundingTime 的差
-                if nextFundingTime is not None:
-                    t_last = funding_times[0]
-                    hrs = abs(nextFundingTime - t_last) / 3_600_000
-                else:
-                    # fallback: 用最近两次 fundingTime 的差
-                    if len(funding_times) < 2:
-                        return self._get_cached_interval(norm_symbol)
-                    t1, t2 = funding_times[0], funding_times[1]
-                    hrs = abs(t1 - t2) / 3_600_000
-
-                hrs = self._snap_hours(hrs)
-                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-                self._set_cached_interval(norm_symbol, hrs)
-                return hrs
-
-        except Exception:
-            return self._get_cached_interval(norm_symbol)
+            hrs = self._snap_hours(hrs)
+            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+            self._set_cached_interval(norm_symbol, hrs)
+            return hrs
 
     async def _is_symbol_valid(
         self, symbol: str, session: aiohttp.ClientSession
