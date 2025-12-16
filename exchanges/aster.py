@@ -3,6 +3,7 @@ import asyncio
 import json
 import os
 from .base import Exchange
+import logging
 
 MIN_INTERVAL_H = 1.0
 MAX_INTERVAL_H = 8.0
@@ -17,6 +18,7 @@ class Aster(Exchange):
         self.invalid_symbol_cache: set[str] = self._load_invalid_cache()
         self._cache_dirty = False
         self._invalid_cache_dirty = False
+        self.logger = logging.getLogger("Aster")
 
     def _load_cache(self) -> dict[str, float]:
         """
@@ -86,6 +88,9 @@ class Aster(Exchange):
         self.interval_cache[sym] = val
         self._cache_dirty = True
 
+    def _log_cache_fallback(self, symbol: str, reason: str) -> None:
+        self.logger.warning("Aster interval fallback to cache for %s: %s", symbol, reason)
+
     def _add_invalid_symbol(self, symbol: str) -> None:
         sym = self._normalize_symbol(symbol)
         if sym not in self.invalid_symbol_cache:
@@ -109,40 +114,48 @@ class Aster(Exchange):
         url = f"{self.base_url}/fapi/v1/fundingRate"
         params = {"symbol": norm_symbol, "limit": 2}
 
-        async with session.get(url, params=params) as resp:
-            if resp.status != 200:
-                return self._get_cached_interval(norm_symbol)
-
-            data = await resp.json()
-            if not isinstance(data, list) or len(data) == 0:
-                return self._get_cached_interval(norm_symbol)
-
-            # 提取 fundingTime（毫秒时间戳），并统一按时间降序（最新在前）
-            funding_times = []
-            for item in data:
-                t = item.get("fundingTime")
-                if isinstance(t, int):
-                    funding_times.append(t)
-            funding_times.sort(reverse=True)
-
-            if not funding_times:
-                return self._get_cached_interval(norm_symbol)
-
-            # 优先用 nextFundingTime 与最近一次 fundingTime 的差
-            if nextFundingTime is not None:
-                t_last = funding_times[0]
-                hrs = abs(nextFundingTime - t_last) / 3_600_000
-            else:
-                # fallback: 用最近两次 fundingTime 的差
-                if len(funding_times) < 2:
+        try:
+            async with session.get(url, params=params) as resp:
+                if resp.status != 200:
+                    self._log_cache_fallback(norm_symbol, f"status {resp.status}")
                     return self._get_cached_interval(norm_symbol)
-                t1, t2 = funding_times[0], funding_times[1]
-                hrs = abs(t1 - t2) / 3_600_000
 
-            hrs = self._snap_hours(hrs)
-            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-            self._set_cached_interval(norm_symbol, hrs)
-            return hrs
+                data = await resp.json()
+                if not isinstance(data, list) or len(data) == 0:
+                    self._log_cache_fallback(norm_symbol, "empty fundingRate response")
+                    return self._get_cached_interval(norm_symbol)
+
+                # 提取 fundingTime（毫秒时间戳），并统一按时间降序（最新在前）
+                funding_times = []
+                for item in data:
+                    t = item.get("fundingTime")
+                    if isinstance(t, int):
+                        funding_times.append(t)
+                funding_times.sort(reverse=True)
+
+                if not funding_times:
+                    self._log_cache_fallback(norm_symbol, "no fundingTime in response")
+                    return self._get_cached_interval(norm_symbol)
+
+                # 优先用 nextFundingTime 与最近一次 fundingTime 的差
+                if nextFundingTime is not None:
+                    t_last = funding_times[0]
+                    hrs = abs(nextFundingTime - t_last) / 3_600_000
+                else:
+                    # fallback: 用最近两次 fundingTime 的差
+                    if len(funding_times) < 2:
+                        self._log_cache_fallback(norm_symbol, "not enough fundingTime entries")
+                        return self._get_cached_interval(norm_symbol)
+                    t1, t2 = funding_times[0], funding_times[1]
+                    hrs = abs(t1 - t2) / 3_600_000
+
+                hrs = self._snap_hours(hrs)
+                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+                self._set_cached_interval(norm_symbol, hrs)
+                return hrs
+        except Exception as e:
+            self._log_cache_fallback(norm_symbol, f"exception {e}")
+            return self._get_cached_interval(norm_symbol)
 
     async def _is_symbol_valid(
         self, symbol: str, session: aiohttp.ClientSession

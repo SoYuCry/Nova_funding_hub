@@ -3,6 +3,7 @@ from .base import Exchange
 import asyncio
 import json
 import os
+import logging
 
 CACHE_FILE = "binance_intervals.json"
 MIN_INTERVAL_H = 1.0
@@ -15,6 +16,7 @@ class Binance(Exchange):
         self.timeout = aiohttp.ClientTimeout(total=10)
         self.interval_cache: dict[str, float] = self._load_cache()
         self._cache_dirty = False
+        self.logger = logging.getLogger("Binance")
 
     # =============================
     # Cache & symbol helpers
@@ -60,6 +62,10 @@ class Binance(Exchange):
         val = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, val))
         self.interval_cache[sym] = val
         self._cache_dirty = True
+
+    def _log_cache_fallback(self, symbol: str, reason: str) -> None:
+        """日志记录：interval 失败时回退缓存"""
+        self.logger.warning("Binance interval fallback to cache for %s: %s", symbol, reason)
 
     # =============================
     # 数据处理 helpers
@@ -108,37 +114,45 @@ class Binance(Exchange):
         url = f"{self.base_url}/fapi/v1/fundingRate"
         params = {"symbol": norm_symbol, "limit": 2}
 
-        async with session.get(url, params=params) as resp:
-            if resp.status != 200:
-                return self._get_cached_interval(norm_symbol)
+        try:
+            async with session.get(url, params=params) as resp:
+                if resp.status != 200:
+                    self._log_cache_fallback(norm_symbol, f"status {resp.status}")
+                    return self._get_cached_interval(norm_symbol)
 
-            data = await resp.json()
-            if not isinstance(data, list) or len(data) == 0:
-                return self._get_cached_interval(norm_symbol)
+                data = await resp.json()
+                if not isinstance(data, list) or len(data) == 0:
+                    self._log_cache_fallback(norm_symbol, "empty fundingRate response")
+                    return self._get_cached_interval(norm_symbol)
 
-            funding_times = self._extract_funding_times(data)
-            if not funding_times:
-                return self._get_cached_interval(norm_symbol)
+                funding_times = self._extract_funding_times(data)
+                if not funding_times:
+                    self._log_cache_fallback(norm_symbol, "no fundingTime in response")
+                    return self._get_cached_interval(norm_symbol)
 
-            hrs: float | None = None
+                hrs: float | None = None
 
-            # 有 nextFundingTime 时优先用它：next - 最近的一次 fundingTime
-            if nextFundingTime is not None:
-                # funding_times 已经按时间降序排序，index 0 为最新一次
-                t_last = funding_times[0]
-                hrs = abs(nextFundingTime - t_last) / 3_600_000
-            # 否则，退化成用最近两次 fundingTime 的间隔
-            elif len(funding_times) >= 2:
-                t1, t2 = funding_times[0], funding_times[1]
-                hrs = abs(t1 - t2) / 3_600_000
+                # 有 nextFundingTime 时优先用它：next - 最近的一次 fundingTime
+                if nextFundingTime is not None:
+                    # funding_times 已经按时间降序排序，index 0 为最新一次
+                    t_last = funding_times[0]
+                    hrs = abs(nextFundingTime - t_last) / 3_600_000
+                # 否则，退化成用最近两次 fundingTime 的间隔
+                elif len(funding_times) >= 2:
+                    t1, t2 = funding_times[0], funding_times[1]
+                    hrs = abs(t1 - t2) / 3_600_000
 
-            if hrs is None:
-                return self._get_cached_interval(norm_symbol)
+                if hrs is None:
+                    self._log_cache_fallback(norm_symbol, "cannot infer interval")
+                    return self._get_cached_interval(norm_symbol)
 
-            hrs = self._snap_hours(hrs)
-            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-            self._set_cached_interval(norm_symbol, hrs)
-            return hrs
+                hrs = self._snap_hours(hrs)
+                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+                self._set_cached_interval(norm_symbol, hrs)
+                return hrs
+        except Exception as e:
+            self._log_cache_fallback(norm_symbol, f"exception {e}")
+            return self._get_cached_interval(norm_symbol)
 
     # =============================
     # 对外接口
