@@ -4,6 +4,7 @@ import json
 import os
 from .base import Exchange
 import logging
+import time
 
 MIN_INTERVAL_H = 1.0
 MAX_INTERVAL_H = 8.0
@@ -19,6 +20,10 @@ class Aster(Exchange):
         self._cache_dirty = False
         self._invalid_cache_dirty = False
         self.logger = logging.getLogger("Aster")
+        self.last_next_file = "aster_last_next.json"
+        self.last_next_funding_map: dict[str, int] = self._load_last_next()
+        self._last_next_dirty = False
+        self.catchup_flags: dict[str, bool] = {}
 
     def _load_cache(self) -> dict[str, float]:
         """
@@ -41,6 +46,26 @@ class Aster(Exchange):
         with open(self.cache_file, "w") as f:
             json.dump(self.interval_cache, f, indent=2, sort_keys=True)
         self._cache_dirty = False
+
+    def _load_last_next(self) -> dict[str, int]:
+        if not os.path.exists(self.last_next_file):
+            return {}
+        with open(self.last_next_file, "r") as f:
+            data = json.load(f)
+        result: dict[str, int] = {}
+        for k, v in data.items():
+            try:
+                result[k.upper()] = int(v)
+            except Exception:
+                continue
+        return result
+
+    def _save_last_next(self) -> None:
+        if not self._last_next_dirty:
+            return
+        with open(self.last_next_file, "w") as f:
+            json.dump(self.last_next_funding_map, f, indent=2, sort_keys=True)
+        self._last_next_dirty = False
 
     def _load_invalid_cache(self) -> set[str]:
         if not os.path.exists(self.invalid_cache_file):
@@ -73,6 +98,10 @@ class Aster(Exchange):
             return 1.0
         return hrs
 
+    def _closest_standard(self, hrs: float) -> float:
+        candidates = (1.0, 4.0, 8.0)
+        return min(candidates, key=lambda h: abs(h - hrs))
+
     def _get_cached_interval(self, symbol: str) -> float | None:
         sym = self._normalize_symbol(symbol)
         hrs = self.interval_cache.get(sym)
@@ -99,63 +128,55 @@ class Aster(Exchange):
 
     # ============ 核心 interval 计算逻辑 ============
 
-    async def _fetch_interval_hours(
-        self,
-        symbol: str,
-        session: aiohttp.ClientSession,
-        nextFundingTime: int | None = None,
-    ) -> float | None:
+    def _infer_interval(self, symbol: str, item: dict) -> float | None:
         """
-        根据 /fapi/v1/fundingRate 推断 funding interval（小时）。
-        优先单查，失败时才回退到本地缓存。
+        使用连续两次 nextFundingTime 的差推断 interval。
+        next 未推进或无上次记录时，返回 None（用缓存）。
+        异常跳变（>8h 或偏离 1/4/8 很多）进入 catchup：保留缓存并报警。
         """
-        norm_symbol = self._normalize_symbol(symbol)
-
-        url = f"{self.base_url}/fapi/v1/fundingRate"
-        params = {"symbol": norm_symbol, "limit": 2}
-
         try:
-            async with session.get(url, params=params) as resp:
-                if resp.status != 200:
-                    self._log_cache_fallback(norm_symbol, f"status {resp.status}")
-                    return self._get_cached_interval(norm_symbol)
+            nxt = item.get("nextFundingTime")
+            if nxt is None:
+                return None
+            nxt = int(nxt)
 
-                data = await resp.json()
-                if not isinstance(data, list) or len(data) == 0:
-                    self._log_cache_fallback(norm_symbol, "empty fundingRate response")
-                    return self._get_cached_interval(norm_symbol)
+            prev_nxt = self.last_next_funding_map.get(symbol)
+            # 始终记录最新 nextFundingTime
+            self.last_next_funding_map[symbol] = nxt
+            self._last_next_dirty = True
 
-                # 提取 fundingTime（毫秒时间戳），并统一按时间降序（最新在前）
-                funding_times = []
-                for item in data:
-                    t = item.get("fundingTime")
-                    if isinstance(t, int):
-                        funding_times.append(t)
-                funding_times.sort(reverse=True)
+            if prev_nxt is None or prev_nxt == nxt:
+                return None
 
-                if not funding_times:
-                    self._log_cache_fallback(norm_symbol, "no fundingTime in response")
-                    return self._get_cached_interval(norm_symbol)
+            diff = nxt - prev_nxt
+            if diff <= 0:
+                return None
 
-                # 优先用 nextFundingTime 与最近一次 fundingTime 的差
-                if nextFundingTime is not None:
-                    t_last = funding_times[0]
-                    hrs = abs(nextFundingTime - t_last) / 3_600_000
-                else:
-                    # fallback: 用最近两次 fundingTime 的差
-                    if len(funding_times) < 2:
-                        self._log_cache_fallback(norm_symbol, "not enough fundingTime entries")
-                        return self._get_cached_interval(norm_symbol)
-                    t1, t2 = funding_times[0], funding_times[1]
-                    hrs = abs(t1 - t2) / 3_600_000
+            hrs = diff / 3_600_000
+            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
+            snapped = self._closest_standard(self._snap_hours(hrs))
+            close_enough = abs(snapped - hrs) < 0.25 and hrs <= 8.25
 
-                hrs = self._snap_hours(hrs)
-                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-                self._set_cached_interval(norm_symbol, hrs)
-                return hrs
-        except Exception as e:
-            self._log_cache_fallback(norm_symbol, f"exception {e}")
-            return self._get_cached_interval(norm_symbol)
+            # catchup 恢复：上次异常，这次正常
+            if self.catchup_flags.get(symbol) and close_enough:
+                self.catchup_flags[symbol] = False
+                return snapped
+
+            if close_enough:
+                return snapped
+
+            # 异常：超出合理范围，进入追赶，保留缓存
+            self.catchup_flags[symbol] = True
+            self.logger.warning(
+                "Aster interval anomaly for %s: delta_hours=%.3f (prev_next=%s, next=%s), keeping cache",
+                symbol,
+                hrs,
+                prev_nxt,
+                nxt,
+            )
+            return None
+        except Exception:
+            return None
 
     async def _is_symbol_valid(
         self, symbol: str, session: aiohttp.ClientSession
@@ -214,14 +235,17 @@ class Aster(Exchange):
                         if item.get("symbol") == norm_symbol:
                             data = item
                             break
-
-                interval_hours = await self._fetch_interval_hours(
-                    norm_symbol, session, nextFundingTime
-                )
-                if interval_hours is None:
-                    interval_hours = self._get_cached_interval(norm_symbol)
-                if interval_hours is None:
+                cached = self._get_cached_interval(norm_symbol)
+                inferred = self._infer_interval(norm_symbol, data)
+                if inferred is not None:
+                    interval_hours = inferred
+                    self._set_cached_interval(norm_symbol, interval_hours)
+                elif cached is not None:
+                    interval_hours = cached
+                else:
                     interval_hours = MAX_INTERVAL_H
+
+                self._save_last_next()
 
                 return {
                     "exchange": self.name,
@@ -257,12 +281,14 @@ class Aster(Exchange):
                             if item.get("nextFundingTime")
                             else None
                         )
-                        interval_hours = await self._fetch_interval_hours(
-                            symbol, session, nextFundingTime
-                        )
-                        if interval_hours is None:
-                            interval_hours = self._get_cached_interval(symbol)
-                        if interval_hours is None:
+                        cached = self._get_cached_interval(symbol)
+                        inferred = self._infer_interval(symbol, item)
+                        if inferred is not None:
+                            interval_hours = inferred
+                            self._set_cached_interval(symbol, interval_hours)
+                        elif cached is not None:
+                            interval_hours = cached
+                        else:
                             interval_hours = MAX_INTERVAL_H
                         return {
                             "exchange": self.name,
@@ -275,5 +301,6 @@ class Aster(Exchange):
 
                 results = await asyncio.gather(*(enrich(item) for item in data))
                 self._save_cache()
+                self._save_last_next()
                 self._save_invalid_cache()
                 return [r for r in results if r is not None]

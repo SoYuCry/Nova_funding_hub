@@ -4,6 +4,7 @@ import asyncio
 import json
 import os
 import logging
+import time
 
 CACHE_FILE = "binance_intervals.json"
 MIN_INTERVAL_H = 1.0
@@ -17,6 +18,10 @@ class Binance(Exchange):
         self.interval_cache: dict[str, float] = self._load_cache()
         self._cache_dirty = False
         self.logger = logging.getLogger("Binance")
+        self.last_next_file = "binance_last_next.json"
+        self.last_next_funding_map: dict[str, int] = self._load_last_next()
+        self._last_next_dirty = False
+        self.catchup_flags: dict[str, bool] = {}
 
     # =============================
     # Cache & symbol helpers
@@ -45,6 +50,26 @@ class Binance(Exchange):
             json.dump(self.interval_cache, f, indent=2, sort_keys=True)
         self._cache_dirty = False
 
+    def _load_last_next(self) -> dict[str, int]:
+        if not os.path.exists(self.last_next_file):
+            return {}
+        with open(self.last_next_file, "r") as f:
+            data = json.load(f)
+        result: dict[str, int] = {}
+        for k, v in data.items():
+            try:
+                result[k.upper()] = int(v)
+            except Exception:
+                continue
+        return result
+
+    def _save_last_next(self) -> None:
+        if not self._last_next_dirty:
+            return
+        with open(self.last_next_file, "w") as f:
+            json.dump(self.last_next_funding_map, f, indent=2, sort_keys=True)
+        self._last_next_dirty = False
+
     def _get_cached_interval(self, symbol: str) -> float | None:
         """从缓存里拿 interval（小时），没有则返回 None。"""
         sym = self._normalize_symbol(symbol)
@@ -65,7 +90,21 @@ class Binance(Exchange):
 
     def _log_cache_fallback(self, symbol: str, reason: str) -> None:
         """日志记录：interval 失败时回退缓存"""
-        self.logger.warning("Binance interval fallback to cache for %s: %s", symbol, reason)
+        cache_val = self._get_cached_interval(symbol)
+        self.logger.warning(
+            "Binance interval fallback to cache for %s: %s (cached=%s)",
+            symbol,
+            reason,
+            cache_val,
+        )
+
+    def _next_hour_ts_ms(self, now_ms: int | None = None) -> int:
+        """返回下一个整点的时间戳（毫秒）"""
+        if now_ms is None:
+            now_ms = int(time.time() * 1000)
+        sec = now_ms // 1000
+        next_hour_sec = ((sec // 3600) + 1) * 3600
+        return next_hour_sec * 1000
 
     # =============================
     # 数据处理 helpers
@@ -83,6 +122,10 @@ class Binance(Exchange):
             return 1.0
         return hrs
 
+    def _closest_standard(self, hrs: float) -> float:
+        candidates = (1.0, 4.0, 8.0)
+        return min(candidates, key=lambda h: abs(h - hrs))
+
     def _extract_funding_times(self, data: list[dict]) -> list[int]:
         """
         从 fundingRate 接口返回的数据中抽出 fundingTime 列表（毫秒时间戳）。
@@ -99,60 +142,58 @@ class Binance(Exchange):
     # 核心 interval 计算逻辑
     # =============================
 
-    async def _fetch_interval_hours(
-        self,
-        symbol: str,
-        session: aiohttp.ClientSession,
-        nextFundingTime: int | None = None,
-    ) -> float | None:
+    def _infer_interval_from_payload(self, symbol: str, item: dict, cached: float | None = None) -> float | None:
         """
-        根据 Binance fundingRate 接口推断 funding interval（小时）。
-        优先使用 nextFundingTime 与最近一次 fundingTime 的差值，
-        否则 fallback 到最近两次 fundingTime 的差值。
+        只使用连续两次 nextFundingTime 的差来推断 interval。
+        若本次 nextFundingTime 与上次相同，直接用缓存。
         """
-        norm_symbol = self._normalize_symbol(symbol)
-        url = f"{self.base_url}/fapi/v1/fundingRate"
-        params = {"symbol": norm_symbol, "limit": 2}
-
         try:
-            async with session.get(url, params=params) as resp:
-                if resp.status != 200:
-                    self._log_cache_fallback(norm_symbol, f"status {resp.status}")
-                    return self._get_cached_interval(norm_symbol)
+            nxt = item.get("nextFundingTime")
+            if nxt is None:
+                return cached
+            nxt = int(nxt)
 
-                data = await resp.json()
-                if not isinstance(data, list) or len(data) == 0:
-                    self._log_cache_fallback(norm_symbol, "empty fundingRate response")
-                    return self._get_cached_interval(norm_symbol)
+            prev_nxt = self.last_next_funding_map.get(symbol)
+            # 始终记录最新的 nextFundingTime
+            self.last_next_funding_map[symbol] = nxt
+            self._last_next_dirty = True
 
-                funding_times = self._extract_funding_times(data)
-                if not funding_times:
-                    self._log_cache_fallback(norm_symbol, "no fundingTime in response")
-                    return self._get_cached_interval(norm_symbol)
+            # 没有上次记录，或 next 未变化，则保持缓存
+            if prev_nxt is None or prev_nxt == nxt:
+                return cached
 
-                hrs: float | None = None
+            diff_prev = abs(nxt - prev_nxt)
+            if diff_prev <= 0:
+                return cached
 
-                # 有 nextFundingTime 时优先用它：next - 最近的一次 fundingTime
-                if nextFundingTime is not None:
-                    # funding_times 已经按时间降序排序，index 0 为最新一次
-                    t_last = funding_times[0]
-                    hrs = abs(nextFundingTime - t_last) / 3_600_000
-                # 否则，退化成用最近两次 fundingTime 的间隔
-                elif len(funding_times) >= 2:
-                    t1, t2 = funding_times[0], funding_times[1]
-                    hrs = abs(t1 - t2) / 3_600_000
+            hrs = diff_prev / 3_600_000
+            hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
 
-                if hrs is None:
-                    self._log_cache_fallback(norm_symbol, "cannot infer interval")
-                    return self._get_cached_interval(norm_symbol)
+            # 正常区间：接近 1/4/8
+            snapped = self._closest_standard(self._snap_hours(hrs))
+            close_enough = abs(snapped - hrs) < 0.25
 
-                hrs = self._snap_hours(hrs)
-                hrs = max(MIN_INTERVAL_H, min(MAX_INTERVAL_H, hrs))
-                self._set_cached_interval(norm_symbol, hrs)
-                return hrs
-        except Exception as e:
-            self._log_cache_fallback(norm_symbol, f"exception {e}")
-            return self._get_cached_interval(norm_symbol)
+            # 上一次出现异常，且这次恢复正常，则清除追赶标志
+            if self.catchup_flags.get(symbol) and close_enough:
+                self.catchup_flags[symbol] = False
+                return snapped
+
+            if close_enough and hrs <= 8.25:
+                return snapped
+
+            # 异常：跳过/超 8h，报警并进入追赶模式，暂用缓存
+            self.catchup_flags[symbol] = True
+            self.logger.warning(
+                "Binance interval anomaly for %s: delta_hours=%.3f (prev_next=%s, next=%s), using cached=%s",
+                symbol,
+                hrs,
+                prev_nxt,
+                nxt,
+                cached,
+            )
+            return cached
+        except Exception:
+            return cached
 
     # =============================
     # 对外接口
@@ -174,17 +215,19 @@ class Binance(Exchange):
                     int(data.get("nextFundingTime", 0))
                     if data.get("nextFundingTime") else None
                 )
-
-                interval_hours = await self._fetch_interval_hours(
-                    norm_symbol, session, nextFundingTime
-                )
-                if interval_hours is None:
-                    interval_hours = self._get_cached_interval(norm_symbol)
-                if interval_hours is None:
+                cached = self._get_cached_interval(norm_symbol)
+                inferred = self._infer_interval_from_payload(norm_symbol, data, cached)
+                if inferred is not None:
+                    interval_hours = inferred
+                    self._set_cached_interval(norm_symbol, interval_hours)
+                elif cached is not None:
+                    interval_hours = cached
+                else:
                     interval_hours = MAX_INTERVAL_H
 
                 # 单次查询也顺便把 cache 刷到磁盘（可按需去掉，减少 IO）
                 self._save_cache()
+                self._save_last_next()
 
                 return {
                     "exchange": self.name,
@@ -204,7 +247,7 @@ class Binance(Exchange):
                     raise Exception(f"Binance API error: {resp.status}")
 
                 data = await resp.json()
-                semaphore = asyncio.Semaphore(5)
+                semaphore = asyncio.Semaphore(3)
 
                 async def enrich(item: dict) -> dict:
                     async with semaphore:
@@ -213,12 +256,14 @@ class Binance(Exchange):
                             int(item.get("nextFundingTime", 0))
                             if item.get("nextFundingTime") else None
                         )
-                        hrs = await self._fetch_interval_hours(
-                            symbol, session, nextFundingTime
-                        )
-                        if hrs is None:
-                            hrs = self._get_cached_interval(symbol)
-                        if hrs is None:
+                        cached = self._get_cached_interval(symbol)
+                        inferred = self._infer_interval_from_payload(symbol, item, cached)
+                        if inferred is not None:
+                            hrs = inferred
+                            self._set_cached_interval(symbol, hrs)
+                        elif cached is not None:
+                            hrs = cached
+                        else:
                             hrs = MAX_INTERVAL_H
                         return {
                             "exchange": self.name,
@@ -231,4 +276,5 @@ class Binance(Exchange):
 
                 results = await asyncio.gather(*(enrich(item) for item in data))
                 self._save_cache()
+                self._save_last_next()
                 return results
