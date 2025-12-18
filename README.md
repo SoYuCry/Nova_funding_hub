@@ -8,7 +8,7 @@
 
 ## ✨ 核心功能
 
-*   **全平台监控**：支持 Aster, Backpack, Binance, EdgeX, Hyperliquid, Lighter 等主流 DEX 和 CEX 交易所。
+*   **全平台监控**：支持 Aster, Backpack, Binance, EdgeX, Hyperliquid, Lighter, Paradex 等主流 DEX 和 CEX 交易所。
 *   **智能套利发现**：
     *   **Max Spread APY**: 自动计算并高亮显示跨交易所的最大年化价差。
     *   **资金费率年化**: 自动将不同结算周期的费率统一转换为 APY，便于直观比较。
