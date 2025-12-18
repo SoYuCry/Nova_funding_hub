@@ -346,15 +346,15 @@ def render_rates_table(df):
         return "-" if pd.isna(x) else "{:.2f}%".format(x)
 
     apy_cols_in_df = [
-        c for c in df.columns if c.endswith("APY%") and c != "Max Spread APY (%)"
+        c for c in df.columns if c.endswith("APY%") and c != "Max Spread (%)"
     ]
     for col in apy_cols_in_df:
         fmt_dict[col] = _fmt_pct
 
-    if "Max Spread APY (%)" in df.columns:
-        fmt_dict["Max Spread APY (%)"] = _fmt_pct
+    if "Max Spread (%)" in df.columns:
+        fmt_dict["Max Spread (%)"] = _fmt_pct
 
-    styler = df.style.format(fmt_dict)
+    styler = df.style.format(fmt_dict).hide(axis="index")
 
     # Gradient Coloring
     spread_cols = apy_cols_in_df.copy()
@@ -365,18 +365,18 @@ def render_rates_table(df):
             vmin=-50,
             vmax=50,
         )
-    if "Max Spread APY (%)" in df.columns:
+    if "Max Spread (%)" in df.columns:
         spread_vmin, spread_vmax = 0, 100
         try:
-            if not df["Max Spread APY (%)"].empty:
-                spread_vmin = max(0, df["Max Spread APY (%)"].quantile(0.05))
-                spread_vmax = df["Max Spread APY (%)"].quantile(0.95)
+            if not df["Max Spread (%)"].empty:
+                spread_vmin = max(0, df["Max Spread (%)"].quantile(0.05))
+                spread_vmax = df["Max Spread (%)"].quantile(0.95)
                 if spread_vmax <= spread_vmin:
                     spread_vmax = spread_vmin + 1
         except Exception:
             pass
         styler = styler.background_gradient(
-            subset=["Max Spread APY (%)"],
+            subset=["Max Spread (%)"],
             cmap="Oranges",
             vmin=spread_vmin,
             vmax=spread_vmax,
@@ -396,8 +396,8 @@ def render_rates_table(df):
 
     if spread_cols:
         styler = styler.apply(_na_bg, subset=spread_cols)
-    if "Max Spread APY (%)" in df.columns:
-        styler = styler.apply(_na_bg, subset=["Max Spread APY (%)"])
+    if "Max Spread (%)" in df.columns:
+        styler = styler.apply(_na_bg, subset=["Max Spread (%)"])
 
     # HTML Rendering
     html = styler.to_html()

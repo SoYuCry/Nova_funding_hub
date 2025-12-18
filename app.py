@@ -129,10 +129,10 @@ else:
     df = pd.DataFrame(rows)
 
     # Reorder columns to surface spread near symbol
-    if "Max Spread APY (%)" in df.columns:
+    if "Max Spread (%)" in df.columns:
         cols = df.columns.tolist()
-        new_cols = ["Symbol", "Max Spread APY (%)"] + [
-            c for c in cols if c not in ("Symbol", "Max Spread APY (%)")
+        new_cols = ["Symbol", "Max Spread (%)"] + [
+            c for c in cols if c not in ("Symbol", "Max Spread (%)")
         ]
         df = df[new_cols]
 

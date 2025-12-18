@@ -9,16 +9,18 @@ from exchanges.lighter import Lighter
 from exchanges.hyperliquid import Hyperliquid
 from exchanges.binance import Binance
 from exchanges.backpack import Backpack
+from exchanges.paradex import Paradex
 
 logger = logging.getLogger("funding_core")
 
 EXCHANGE_FACTORIES: list[tuple[type, str]] = [
-    (Aster, "Aster"),
-    (EdgeX, "EdgeX"),
-    (Lighter, "Lighter"),
-    (Hyperliquid, "HL"),
     (Binance, "Binance"),
+    (Aster, "Aster"),
+    (Hyperliquid, "HL"),
+    (Lighter, "Lighter"),
     (Backpack, "BP"),
+    (EdgeX, "EdgeX"),
+    (Paradex, "Para"),
 ]
 EXCHANGE_NAMES = [name for _, name in EXCHANGE_FACTORIES]
 
@@ -29,6 +31,7 @@ DEFAULT_INTERVAL_HOURS = {
     "HL": 1,
     "Binance": 8,
     "Backpack": 1,
+    "Para": 8,
 }
 
 
@@ -207,7 +210,7 @@ def process_raw_results(raw_results, selected_exchanges: Optional[Iterable[str]]
         if len(apys) < 2:
             continue
             
-        row["Max Spread APY (%)"] = max(apys) - min(apys)
+        row["Max Spread (%)"] = max(apys) - min(apys)
         rows.append(row)
 
     return rows
