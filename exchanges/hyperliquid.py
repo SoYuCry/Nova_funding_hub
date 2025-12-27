@@ -79,6 +79,9 @@ class Hyperliquid(Exchange):
                 name = meta.get("name", "")
                 if not name:
                     continue
+                # Skip delisted symbols
+                if meta.get("isDelisted", False):
+                    continue
                 symbol = self._coin_to_symbol(name)
                 if symbol in seen:
                     continue
