@@ -57,4 +57,4 @@ Nova 是一个专注于 **加密货币套利 (Arbitrage)** 与 **量化交易** 
 🤝 **加入我们：**
 
 *   **X (Twitter)**: [@0xYuCry](https://x.com/0xYuCry)
-*   **Telegram**: [Nova Community](https://t.me/Nova_Crpytohub)
+*   **Telegram**: [Nova Community](https://t.me/Nova_Cryptohub)
